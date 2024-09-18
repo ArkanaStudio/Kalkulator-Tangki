@@ -1,22 +1,31 @@
 <!DOCTYPE html>
+<html lang="en"></html>
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Ketinggian Tangki</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1 class="tittle">Kalkulator Ketinggian Tangki</h1>
+        <div class="layout">
 
-        <label for="volume" class="sub-tittle">Volume Tangki (liter):</label>
-        <input type="number" class="volume" id="volume" name="volume"><br><br>
+            <img src="Logo White Png (1).png" width="70px" alt="">
 
-        <p class="sub-hasil">Tinggi Tangki</p>
-        <button onclick="hitungTinggi()">Hitung</button>
-
-        <p id="hasil" class="hasil"></p>
+            <h1 class="tittle">Kalkulator Ketinggian Tangki</h1>
+    
+            <label for="volume" class="sub-tittle">Masukan Volume Tangki (liter):</label>
+            <input type="number" placeholder="Contoh: 50000" class="volume" id="volume" name="volume"><br><br>
+    
+            <p class="sub-hasil">Hitung Tinggi Tangki</p>
+            <button onclick="hitungTinggi()">Hitung</button>
+    
+            <p id="hasil" class="hasil"></p>
+            
+        </div>
     </div>
 
 <!-- My JAVASCRIPT -->

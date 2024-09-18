@@ -14,5 +14,5 @@ function hitungTinggi() {
     const tinggi = volumeM3 / (pi * jariJari * jariJari);
 
     // Tampilkan hasil
-    document.getElementById("hasil").textContent = "Tinggi cairan: " + tinggi.toFixed(2) + " meter";
+    document.getElementById("hasil").textContent = "Ketinggian cairan: " + tinggi.toFixed(2) + " meter";
 }
